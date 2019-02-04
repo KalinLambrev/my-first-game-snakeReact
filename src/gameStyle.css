@@ -1,0 +1,54 @@
+.cell {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    margin: 0px 1px 1px 0px;
+    background-color: lightgray;
+}
+
+.grid {
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 400px;
+    height: 400px;
+    font-size: 0;
+}
+
+.apple {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0px 1px 1px 0px;
+    background-color: green;
+}
+
+.game {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin: 150px auto;
+}
+
+.head {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0px 1px 1px 0px;
+    background: black;
+}
+
+.tail {
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    box-sizing: border-box;
+    position: absolute;
+    margin: 0px 1px 1px 0px;
+    background: darkslategrey;
+}
