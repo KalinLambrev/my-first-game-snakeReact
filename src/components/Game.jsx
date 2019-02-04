@@ -89,8 +89,8 @@ class Game extends Component {
 
   createRandomApple = () => {
     const newApple = {
-      row: Math.floor(Math.random() * 20),
-      col: Math.floor(Math.random() * 20)
+      row: Math.floor(Math.random() * SnakeSettings.gridSize),
+      col: Math.floor(Math.random() * SnakeSettings.gridSize)
     };
     return newApple;
   };
