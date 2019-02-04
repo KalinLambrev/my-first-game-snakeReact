@@ -1,7 +1,8 @@
 # my-first-game-snakeReact
 The Snake game made with React with reuseble components and structure.
 
-rules:
+Main features:
+
 You can Change the settings from settings.json like speed, grid size and create apple interval.
 
 Тhe apple appears in an random place as it can not fall on the snake's head or body.
