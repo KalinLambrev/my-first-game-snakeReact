@@ -1,5 +1,6 @@
 import React from 'react';
 import SnakeSettings from '../settings.json';
+import '../gameStyle.css';
 
 const Snake = (props) => {
     const head = props.head;

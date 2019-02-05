@@ -1,6 +1,6 @@
 import React from 'react';
 import SnakeSettings from '../settings.json';
-import './Board.css';
+import '../gameStyle.css';
 
 const Apple = (props) => {
     console.log(props)

@@ -184,7 +184,7 @@ class Game extends Component {
   render() {
     const { gameOver, snake } = this.state;
     return (
-      <div className="game">
+      <div>
         {gameOver ? (
           <div>
             <h1>Game Over! You scored {snake.tail.length}!</h1>
