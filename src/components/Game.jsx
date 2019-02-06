@@ -187,7 +187,7 @@ class Game extends Component {
       <div className="game">
         {gameOver ? (
           <div>
-            <h1>Game Over! You scored {snake.tail.length}!</h1>
+            <h1>{`Game Over! You scored ${snake.tail.length}!`}</h1>
           </div>
         ) : (
           <div>
